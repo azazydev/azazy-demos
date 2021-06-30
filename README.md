@@ -1,1 +1,1 @@
-# azazy-demos
+# azazy demos & pocs
