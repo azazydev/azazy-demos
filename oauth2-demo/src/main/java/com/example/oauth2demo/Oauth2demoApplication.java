@@ -22,10 +22,6 @@ public class Oauth2demoApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(Oauth2demoApplication.class, args);
-        BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
-        String password[] = {"password1", "password2", "password3"};
-        for (int i = 0; i < password.length; i++)
-            System.out.println(passwordEncoder.encode(password[i]));
     }
 
 }
